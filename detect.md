@@ -1,4 +1,7 @@
-{% include header.html %}
+---
+title: Spot Fraud
+layout: default
+---
 
 # How to Spot Fraud
 Fraud attempts come in many forms, but most share common tactics designed to confuse, pressure, or mislead you.
