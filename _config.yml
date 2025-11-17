@@ -1,42 +1,8 @@
-theme: "just-the-docs"
-remote_theme: "pmarsceill/just-the-docs"
-title: "Phish4All Documentation"
-description: "Documentation pour Phish4All"
-url: ""
-baseurl: ""
-logo: "/assets/images/logo.svg"
-show_download: true
+title: Just the Docs Template
+description: A starter template for a Jeykll site using the Just the Docs theme!
+theme: just-the-docs
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
+url: https://just-the-docs.github.io
 
-markdown: kramdown
-kramdown:
-  input: GFM
-
-just_the_docs:
-  homepage: index.md
-  repository_url: "https://github.com/JulienBouchardIT/phish4all_documentation"
-  search_enabled: true
-  show_download: true
-  edit_on_github:
-    repository: "JulienBouchardIT/phish4all_documentation"
-    path: ""
-
-collections:
-  docs:
-    output: true
-
-include:
-  - _pages
-  - _docs
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-# Defaults for kramdown/rendering
-permalink: /:collection/:path/
-
-# Navigation will be configured in _data/navigation.yml
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
