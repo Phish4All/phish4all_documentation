@@ -1,8 +1,50 @@
-<nav>
-  <ul>
-    <li><a href="index.html">Accueil</a></li>
-    <li><a href="about.html">À propos</a></li>
-    <li><a href="projects.html">Projets</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+<nav class="main-nav">
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact Us</a>
 </nav>
+<style>
+.topbar {
+    background: #35424a;
+    color: #ffffff;
+}
+
+.topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 16px;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 20px;
+    /* Use the special brand font (fallback to cursive) */
+    font-family: 'Momo Trust Display', cursive;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.main-nav a:hover {
+    background: #2b3a40;
+}
+
+.auth-button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.auth-button:hover {
+    background: rgba(255,255,255,0.04);
+}
+</style>
