@@ -7,4 +7,4 @@ mermaid:
   version: "9.1.3"
 nav_enabled: true
 logo: "assets/images/logo.svg"
-favicon_icon: "assets/images/logo.svg"
+favicon_icon: "assets/images/logo.ico"
