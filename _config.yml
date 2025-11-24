@@ -1,4 +1,4 @@
-title: "Documentation | Phish4All"
+title: "Phish4All"
 description: 
 plugins:
   - jekyll-remote-theme
@@ -10,3 +10,5 @@ mermaid:
 nav_enabled: true
 logo: "assets/images/logo_title.svg"
 favicon_ico: "assets/images/logo.ico"
+kramdown:
+  footnote_nr: 0
