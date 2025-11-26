@@ -7,7 +7,21 @@ layout: nil
 <html lang="{{ site.lang | default: 'en-US' }}">
 <body>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
-  {% include components/sidebar.html %}
+    <aside class="sidebar">
+      <nav role="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="{{ '/' | relative_url }}">Accueil</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="{{ '/docs/' | relative_url }}">Docs</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link" href="{{ '/contact/' | relative_url }}">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
   <div class="main" id="top">
     <div class="main-content-wrap">
       <div id="main-content" class="main-content">
