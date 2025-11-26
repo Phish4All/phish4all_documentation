@@ -1,6 +1,6 @@
 ---
 title: Spot Fraud
-layout: default
+layout: simple
 ---
 <link rel="shortcut icon" type="image/png" href="assets/images/logo.svg">
 
