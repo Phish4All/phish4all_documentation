@@ -67,9 +67,9 @@ div.content {
 <body>
 
 <div class="sidebar">
-  <a href="index.html">Index</a>
-  <a href="detect.html">Spot a fraud</a>
-  <a href="protect.html">Protect yourselft</a>
+  <a href="index.html" {% if page.url == '/index.html' or page.url == '/' %}class="active"{% endif %}>Index</a>
+  <a href="detect.html" {% if page.url == '/detect.html' %}class="active"{% endif %}>Spot a fraud</a>
+  <a href="protect.html" {% if page.url == '/protect.html' %}class="active"{% endif %}>Protect yourselft</a>
 </div>
 
 <div class="content">
