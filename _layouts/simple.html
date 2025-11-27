@@ -40,6 +40,14 @@ body {
   background-color: #201f23;
 }
 
+.sidebar div p {
+  font-weight: bold;
+}
+
+.sidebar div a{
+  padding-left: 40px;
+}
+
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
@@ -69,7 +77,7 @@ div.content {
 <div class="sidebar">
   <a href="detect.html" {% if page.url == '/detect.html' %}class="active"{% endif %}>Spot a fraud</a>
   <a href="protect.html" {% if page.url == '/protect.html' %}class="active"{% endif %}>Protect yourselft</a>
-  <div padding="10px">
+  <div>
     <p>Types of Fraud</p>
     <a href="pig_butchering.html" {% if page.url == '/pig_butchering.html' %}class="active"{% endif %}>Pig Butchering</a>
     <a href="sextortion.html" {% if page.url == '/sextortion.html' %}class="active"{% endif %}>Sextortion</a>
