@@ -1,6 +1,7 @@
 ---
 title: Protect Yourself
 layout: simple
+lang: en
 ---
 <link rel="shortcut icon" type="image/png" href="assets/images/logo.svg">
 
