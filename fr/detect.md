@@ -1,6 +1,7 @@
 ---
 title: Repérer une fraude
 layout: simple
+lang: fr
 ---
 <link rel="shortcut icon" type="image/png" href="assets/images/logo.svg">
 
