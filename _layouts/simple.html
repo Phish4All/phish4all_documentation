@@ -84,19 +84,22 @@ div.content {
 {% assign fraud_pages = lang_pages | where_exp: "p", "p.url contains '/fraud/'" %}
 <div class="sidebar">
   <a href="/phish4all_documentation/{{ current_lang }}/detect.html"
-     {% if page.url == 'phish4all_documentation/'+current_lang+'/detect.html' %}class="active"{% endif %}>
-     {{ lang_pages | where: "url", "/"+current_lang+"/detect.html" | first | dig: "title" }}
+    {% if page.url == 'phish4all_documentation/'+current_lang+'/detect.html' %}class="active"{% endif %}>
+    {% assign detect_url = '/phish4all_documentation/' | append: current_lang | append: '/detect.html' %}
+      {{ lang_pages | where: "url", detect_url | first | dig: "title" }}
   </a>
 
   <a href="/phish4all_documentation/{{ current_lang }}/protect.html"
      {% if page.url == 'phish4all_documentation/'+current_lang+'/protect.html' %}class="active"{% endif %}>
-     {{ lang_pages | where: "url", "/"+current_lang+"/protect.html" | first | dig: "title" }}
+     {% assign protect_url = '/phish4all_documentation/' | append: current_lang | append: '/protect.html' %}
+  {{ lang_pages | where: "url", protect_url | first | dig: "title" }}
+
   </a>
 
   <div>
     <p>Types of Fraud</p>
     {% for p in fraud_pages %}
-      <a href="/phish4all_documentation/{{ p.url }}" {% if page.url == p.url %}class="active"{% endif %}>
+      <a href="/phish4all_documentation{{ p.url }}" {% if page.url == p.url %}class="active"{% endif %}>
         {{ p.title }}
       </a>
     {% endfor %}
