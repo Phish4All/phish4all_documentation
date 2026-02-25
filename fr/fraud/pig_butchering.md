@@ -1,6 +1,7 @@
 ---
 title: Pig Butchering
 layout: simple
+lang: fr
 ---
 
 # Pig Butchering Fraud
