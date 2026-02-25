@@ -1,6 +1,7 @@
 ---
 title: Sextortion
 layout: simple
+lang: en
 ---
 
 # Sextortion Fraud
