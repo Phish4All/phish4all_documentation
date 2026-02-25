@@ -1,73 +1,76 @@
 ---
-title: Reperer un fraude
+title: Repérer une fraude
 layout: simple
 ---
 <link rel="shortcut icon" type="image/png" href="assets/images/logo.svg">
 
-# How to Spot Fraud
-Fraud attempts come in many forms, but most share common tactics designed to confuse, pressure, or mislead you.
+# Comment repérer une fraude
+Les tentatives de fraude prennent de nombreuses formes, mais elles reposent souvent sur les mêmes tactiques : te mettre sous pression, te désorienter ou te tromper.
 
-## 1. Signs of Fraud in Any Format (Phone, SMS, Email)
+## 1. Signes de fraude dans n’importe quel format (téléphone, SMS, courriel)
 
-### Urgency and Pressure
+### Urgence et pression
 
-Scammers try to get you to act before thinking:
-- “Your account will close in 30 minutes!”
-- “Immediate action required!”
+Les fraudeurs essaient de te faire agir avant de réfléchir :
+- « Votre compte sera fermé dans 30 minutes ! »
+- « Action immédiate requise ! »
 
-Legitimate organizations rarely use threats or deadlines.
+Les organisations légitimes utilisent rarement des menaces ou des délais serrés.
 
-### Unexpected Contact
+### Contact inattendu
 
-If you didn’t expect the call, message, or email—treat it with caution, no matter how official it looks.
+Si tu ne t’attendais pas à l’appel, au message ou au courriel, reste prudent, même si tout semble officiel.
 
-### Requests for Sensitive Information
+### Demandes d’informations sensibles
 
-Fraudsters may ask for:
-- Passwords
-- One-time verification codes
-- Payment details
-- Remote access to your phone/computer
+Les fraudeurs peuvent demander :
+- Mots de passe  
+- Codes de vérification à usage unique  
+- Informations de paiement  
+- Accès à distance à ton téléphone ou ordinateur  
 
-This is always a red flag.
+C’est toujours un signal d’alarme.
 
-### Too-Good-to-Be-True Offers
+### Offres trop belles pour être vraies
 
-Examples:
+Exemples :
 
-- Surprise refunds
-- Prize winnings
-- Job offers with unrealistic pay
+- Remboursements surprises  
+- Gains de concours  
+- Offres d’emploi avec un salaire irréaliste  
 
-## 2. How to Spot Fraud by Phone
-### Key Warning Signs
-- Caller claims to be from a bank, government, or delivery service.
-- Caller ID looks official but feels suspicious (numbers can be spoofed).
-- They ask you to stay on the line or prevent you from calling back.
-- They ask for personal info or payment methods like gift cards or crypto.
+## 2. Comment repérer une fraude par téléphone
 
-### How to Confirm
-- Hang up immediately.
-- Call back using the official number from the organization’s website.
+### Signes d’alerte
+- L’appelant prétend venir d’une banque, d’un organisme gouvernemental ou d’un service de livraison.  
+- L’afficheur semble officiel, mais quelque chose cloche (les numéros peuvent être usurpés).  
+- On te demande de rester en ligne ou d’éviter de rappeler.  
+- On te demande des informations personnelles ou des paiements en cartes-cadeaux ou crypto.  
 
-## 3. How to Spot Fraud by SMS
-### Warning Signs
-- Unexpected tracking links or “package held” messages.
-- Bank or account alerts asking you to click a link.
-- Shortened URLs (e.g., bit.ly).
-- Messages from numbers you don’t recognize.
+### Comment vérifier
+- Raccroche immédiatement.  
+- Rappelle en utilisant le numéro officiel trouvé sur le site de l’organisation.  
 
-### How to Confirm
-- Check your official app (bank, delivery service).
--Do not click any links.
-- Do not reply—not even “STOP.”
+## 3. Comment repérer une fraude par SMS
 
-## 4. How to Spot Fraud by Email (Phishing)
-### Warning Signs
-- Sender address looks almost right but not exact.
-- Unexpected password reset or payment request.
-- Attachments you didn’t expect.
+### Signes d’alerte
+- Liens de suivi inattendus ou messages « colis retenu ».  
+- Alertes bancaires demandant de cliquer sur un lien.  
+- URLs raccourcies (ex. bit.ly).  
+- Messages provenant de numéros inconnus.  
 
-### How to Confirm
-- Hover over links to preview the real URL.
-- Access your account through the official website or app, not by clicking the email.
+### Comment vérifier
+- Consulte ton application officielle (banque, service de livraison).  
+- Ne clique sur aucun lien.  
+- Ne réponds pas — même pas « STOP ».  
+
+## 4. Comment repérer une fraude par courriel (phishing)
+
+### Signes d’alerte
+- L’adresse de l’expéditeur semble correcte, mais comporte une légère différence.  
+- Demandes inattendues de réinitialisation de mot de passe ou de paiement.  
+- Pièces jointes non sollicitées.  
+
+### Comment vérifier
+- Survole les liens pour voir la véritable URL.  
+- Accède à ton compte via le site ou l’application officielle, jamais en cliquant sur le courriel.  
