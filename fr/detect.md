@@ -1,5 +1,5 @@
 ---
-title: Spot Fraud
+title: Reperer un fraude
 layout: simple
 ---
 <link rel="shortcut icon" type="image/png" href="assets/images/logo.svg">
