@@ -5,7 +5,6 @@ layout: nil
 {% assign current_lang = page.lang %}
 {% assign lang_pages = site.pages | where: "lang", current_lang %}
 {% assign fraud_pages = lang_pages | where_exp: "p", "p.url contains '/fraud/'" %}
-{% assign non_fraud_pages = lang_pages | where_exp: "g", "not g.url contains '/fraud/'" %}
 
 <!DOCTYPE html>
 <html>
@@ -86,11 +85,6 @@ layout: nil
     
     <div class="sidebar">
     
-      {% for g in non_fraud_pages %}
-        <a href="/phish4all_documentation{{ g.url }}" {% if page.url == g.url %}class="active"{% endif %}>
-          {{ g.title }}
-        </a>
-      {% endfor %}
     
       <div>
         {% if page.url contains '/en/' %}<p>Types of Fraud</p>{% endif %}
