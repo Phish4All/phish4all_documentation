@@ -85,8 +85,17 @@ layout: nil
     
     <div class="sidebar">
 
-      {% assign detect_page = site.pages | where: "lang", current_lang | where_exp: "p", "p.url ends_with 'detect.html'" %}
-      <a href="/phish4all_documentation/{{ current_lang }}/detect.html" {% if page.url == p.url %}class="active"{% endif %}>{% detect_page.title %}</a>
+      {% assign detect_page = site.pages 
+        | where: "lang", current_lang 
+        | where_exp: "p", "p.url ends_with 'detect.html'" 
+      %}
+      {% assign detect = detect_page.first %}
+      
+      <a href="/phish4all_documentation/{{ current_lang }}/detect.html"
+         {% if page.url == detect.url %}class="active"{% endif %}>
+        {{ detect.title }}
+      </a>
+
 
       
       <a href="/phish4all_documentation/{{ current_lang }}/protect.html" {% if page.url == p.url %}class="active"{% endif %}>pro</a>
