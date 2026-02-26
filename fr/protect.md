@@ -1,71 +1,69 @@
 ---
-title: Protect Yourself
+title: Protégez-vous
 layout: simple
 lang: fr
 ---
 <link rel="shortcut icon" type="image/png" href="assets/images/logo.svg">
 
-# How to Protect Yourself
-Protecting yourself from fraud begins with building strong habits. These practices reduce your chances of becoming a victim—no matter whether scammers contact you by phone, SMS, or email.
+# Comment vous protéger
+Se protéger contre la fraude commence par adopter de bonnes habitudes. Ces pratiques réduisent considérablement les risques d’être victime, peu importe si les fraudeurs vous contactent par téléphone, SMS ou courriel.
 
-## 1. Strengthen Your Digital Security
-### Use Multi-Factor Authentication (MFA)
-Activate MFA on:
-- Banking apps
-- Email accounts
-- Social media
-- Online shopping accounts
+## 1. Renforcez votre sécurité numérique
+### Utilisez l’authentification multifacteur (MFA)
+Activez la MFA sur :
+- Vos applications bancaires
+- Vos comptes courriel
+- Vos réseaux sociaux
+- Vos comptes d’achat en ligne
 
-Even if someone gets your password, they cannot log in without your second authentication step.
+Même si quelqu’un obtient votre mot de passe, il ne pourra pas se connecter sans la seconde étape d’authentification.
 
-### Keep Your Devices Updated
+### Gardez vos appareils à jour
+Installez les mises à jour de sécurité sur :
+- Vos téléphones
+- Vos ordinateurs
+- Vos applications
 
-Install security updates on:
-- Phones
-- Computers
-- Apps
+Les mises à jour corrigent des failles que les fraudeurs exploitent souvent.
 
-Updates patch vulnerabilities scammers often exploit.
+### Activez les filtres anti‑pourriel et anti‑fraude
+La plupart des services courriel et des opérateurs mobiles offrent :
+- La détection de pourriel
+- Des alertes de fraude
+- Le filtrage des appels
 
-### Enable Spam and Scam Filters
+Activez ces fonctionnalités pour bloquer de nombreuses tentatives avant qu’elles ne vous atteignent.
 
-Most email services and phone carriers offer:
-- Spam detection
-- Fraud warnings
-- Call screening
+## 2. Évitez de partager des informations personnelles
+Ne partagez jamais de données sensibles par téléphone, SMS ou courriel :
+- Mots de passe
+- Codes PIN
+- Codes de vérification
+- Numéros complets de carte de crédit
+- Photos de pièces d’identité ou de cartes bancaires
 
-Activate these features to block many scam attempts before they reach you.
+Les entreprises légitimes ne demanderont jamais ces informations de manière inattendue.
 
-## 2. Avoid Sharing Personal Information
-Never share sensitive details through phone, SMS, or email:
-- Passwords
-- PIN codes
-- Verification codes
-- Full credit card numbers
-- Photos of ID or bank cards
+## 3. Vérifiez les messages via les canaux officiels
+Si une entreprise vous contacte :
+- Ne cliquez pas sur les liens dans le message.
+- Ouvrez plutôt l’application ou le site officiel manuellement.
+- Ou appelez l’entreprise en utilisant un numéro vérifié (depuis leur site officiel).
 
-Legitimate companies will never ask for this information unexpectedly.
+Cela empêche les fraudeurs de vous piéger avec de faux liens ou de faux numéros.
 
-## 3. Verify Messages Through Official Channels
-If a company contacts you:
-- Do not click links inside the message.
-- Instead, open the app or website manually.
-- Or call the company using a verified number (from their official site).
+## 4. Protégez votre numéro de téléphone et votre courriel
+Les fraudeurs obtiennent souvent des numéros à partir de :
+- Formulaires en ligne
+- Fuites de données
+- Réseaux sociaux
 
-This removes the scammer’s ability to trick you with fake links or fake phone numbers.
+Limitez où vous partagez votre numéro ou votre courriel et évitez de les publier publiquement.
 
-## 4. Protect Your Phone Number and Email
-Scammers often collect numbers from:
-- Online forms
-- Data leaks
-- Social media
+## 5. Faites confiance à votre instinct
+Si quelque chose semble étrange, précipité ou trop beau pour être vrai :
+- Faites une pause
+- Vérifiez
+- N’agissez pas tant que vous n’êtes pas certain
 
-Limit where you share your number or email and avoid posting them publicly.
-
-## 5. Trust Your Instincts
-If something feels weird, rushed, or too good to be true:
-- Pause
-- Verify
-- Do not act until you’re sure
-
-Your intuition is often the first and best line of defense.
+Votre intuition est souvent votre première et meilleure ligne de défense.
