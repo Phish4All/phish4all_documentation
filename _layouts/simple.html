@@ -97,7 +97,7 @@ layout: nil
 
       <div>
         {% if page.url contains '/en/' %}<p>Types of Fraud</p>{% endif %}
-        {% if page.url contains '/fr/' %}<p>Types de Fraude</p>{% endif %}
+        {% if page.url contains '/fr/' %}<p>Les fraudes</p>{% endif %}
         {% for p in fraud_pages %}
           <a href="/phish4all_documentation{{ p.url }}" {% if page.url == p.url %}class="active"{% endif %}>
             {{ p.title }}
