@@ -4,44 +4,44 @@ layout: simple
 lang: fr
 ---
 
-# Pig Butchering Fraud
+# Fraude « Pig Butchering »
 
-## 1. Overview
-**Pig Butchering Fraud** is a long-term social engineering scam where criminals build trust with victims—often through social media, dating apps, or messaging platforms—and gradually convince them to invest in fake or fraudulent financial platforms (commonly crypto).  
-The fraudster “fattens” the victim with emotional manipulation before “slaughtering” them by stealing all funds.
+## 1. Aperçu
+La **fraude Pig Butchering** est une arnaque d’ingénierie sociale à long terme dans laquelle les criminels établissent une relation de confiance avec leurs victimes — souvent via les réseaux sociaux, les applications de rencontre ou les plateformes de messagerie — puis les convainquent progressivement d’investir dans des plateformes financières frauduleuses (souvent liées aux cryptomonnaies).  
+Le fraudeur « engraisse » la victime par manipulation émotionnelle avant de la « massacrer » en volant l’ensemble des fonds investis.
 
-## 2. How the Scam Works
-1. **Initial Contact**  
-   - Random messages (“wrong number”), dating apps, social media.
-2. **Relationship Building**  
-   - Daily conversations, emotional bonding, shared “goals.”
-3. **Investment Introduction**  
-   - Fake crypto trading platforms, screenshots of false profits.
-4. **Escalation**  
-   - Pressure to invest more, “limited-time opportunities.”
-5. **Final Theft**  
-   - Withdrawals blocked, demands for extra fees, disappearance.
+## 2. Fonctionnement de l’arnaque
+1. **Premier contact**  
+   - Messages aléatoires (« mauvais numéro »), applications de rencontre, réseaux sociaux.
+2. **Création du lien**  
+   - Conversations quotidiennes, rapprochement émotionnel, objectifs « partagés ».
+3. **Introduction à l’investissement**  
+   - Fausses plateformes de trading crypto, captures d’écran de profits inventés.
+4. **Escalade**  
+   - Pression pour investir davantage, « opportunités limitées dans le temps ».
+5. **Vol final**  
+   - Retraits bloqués, demandes de frais supplémentaires, disparition du fraudeur.
 
-## 3. Key Red Flags
-- Fast emotional intimacy.
-- Unsolicited investment advice.
-- Promises of high or guaranteed returns.
-- Use of unregulated investment platforms.
-- Difficulty withdrawing funds.
+## 3. Signaux d’alerte
+- Intimité émotionnelle rapide.
+- Conseils d’investissement non sollicités.
+- Promesses de rendements élevés ou garantis.
+- Utilisation de plateformes non réglementées.
+- Difficulté à retirer les fonds.
 
-## 4. Prevention
-- Do not invest based on online relationships.
-- Verify identities independently.
-- Use only licensed and regulated platforms.
-- Provide training on long-con scams.
-- Monitor unusual crypto-related transactions.
+## 4. Prévention
+- Ne jamais investir sur la base d’une relation en ligne.
+- Vérifier les identités de manière indépendante.
+- Utiliser uniquement des plateformes réglementées et autorisées.
+- Former les équipes aux arnaques à long terme.
+- Surveiller les transactions inhabituelles liées aux cryptomonnaies.
 
-## 5. Response Steps
-- Stop communication immediately.
-- Secure affected accounts.
-- Attempt transaction recall if possible.
-- Collect evidence (screenshots, URLs, conversations).
-- Report to cybercrime authorities and internal teams.
+## 5. Que faire en cas d’arnaque
+- Couper immédiatement toute communication.
+- Sécuriser les comptes concernés.
+- Tenter un rappel de transaction si possible.
+- Rassembler les preuves (captures d’écran, URLs, conversations).
+- Signaler aux autorités de cybercriminalité et aux équipes internes.
 
-## 6. Summary
-Pig Butchering is a romance-investment scam combining emotional manipulation with fake financial platforms. Awareness, verification, and strong reporting processes are key to prevention.
+## 6. Résumé
+Le Pig Butchering est une arnaque mêlant romance et investissement, combinant manipulation émotionnelle et fausses plateformes financières. La sensibilisation, la vérification et des processus de signalement solides sont essentiels pour s’en protéger.
