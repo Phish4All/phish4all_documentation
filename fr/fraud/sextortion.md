@@ -4,46 +4,46 @@ layout: simple
 lang: fr
 ---
 
-# Sextortion Fraud
+# Fraude par sextorsion
 
-## 1. Overview
-**Sextortion Fraud** is a form of extortion in which a fraudster manipulates a victim into sharing private or intimate images and then threatens to publicly release them unless demands are met.  
-The scam relies heavily on psychological pressure, shame, and fear to coerce victims into paying money or providing additional explicit content.
+## 1. Aperçu
+La **fraude par sextorsion** est une forme d’extorsion dans laquelle un fraudeur manipule une victime pour obtenir des images ou vidéos privées et intimes, puis menace de les rendre publiques si ses exigences ne sont pas satisfaites.  
+L’arnaque repose fortement sur la pression psychologique, la honte et la peur pour pousser les victimes à payer ou à fournir davantage de contenu explicite.
 
-## 2. How the Scam Works
-1. **Initial Contact**  
-   - Social media, dating apps, messaging platforms.
-2. **Trust Building**  
-   - Friendly conversation, flirting, sharing fake intimate photos.
-3. **Collection of Explicit Material**  
-   - Fraudster encourages the victim to send private images or videos.
-4. **Threat Phase**  
-   - Fraudster threatens to share the content with family, friends, or online.
-5. **Extortion**  
-   - Demands for payment or additional photos to prevent exposure.
+## 2. Fonctionnement de l’arnaque
+1. **Premier contact**  
+   - Réseaux sociaux, applications de rencontre, plateformes de messagerie.
+2. **Création de la confiance**  
+   - Conversation amicale, flirt, partage de fausses photos intimes.
+3. **Collecte de contenu explicite**  
+   - Le fraudeur encourage la victime à envoyer des images ou vidéos privées.
+4. **Phase de menace**  
+   - Le fraudeur menace de partager le contenu avec la famille, les amis ou en ligne.
+5. **Extorsion**  
+   - Exigences de paiement ou de contenu supplémentaire pour éviter la diffusion.
 
-## 3. Key Red Flags
-- Rapid escalation toward sexual conversations.
-- Requests to switch to private messaging apps.
-- Pressure to exchange intimate images quickly.
-- Threats, emotional manipulation, or aggressive language.
-- Accounts with minimal activity or inconsistent identity details.
+## 3. Signaux d’alerte
+- Escalade rapide vers des conversations sexuelles.
+- Demandes de passer sur des applications de messagerie privées.
+- Pression pour échanger des images intimes rapidement.
+- Menaces, manipulation émotionnelle ou langage agressif.
+- Comptes avec peu d’activité ou des informations d’identité incohérentes.
 
-## 4. Prevention
-- Avoid sharing intimate content with unknown or unverified individuals.
-- Disable automatic contact syncing on social media.
-- Be cautious of sudden romantic or sexual interest online.
-- Use privacy settings and limit publicly visible information.
-- Educate users on social engineering and digital blackmail techniques.
+## 4. Prévention
+- Ne partagez jamais de contenu intime avec des personnes inconnues ou non vérifiées.
+- Désactivez la synchronisation automatique des contacts sur les réseaux sociaux.
+- Soyez prudent face à un intérêt romantique ou sexuel soudain en ligne.
+- Utilisez les paramètres de confidentialité et limitez les informations visibles publiquement.
+- Sensibilisez les utilisateurs aux techniques d’ingénierie sociale et de chantage numérique.
 
-## 5. Response Steps
-- Stop all communication immediately.
-- Do **not** pay—the extortion usually continues.
-- Report the account on the social platform.
-- Capture and save evidence (screenshots, usernames, URLs).
-- Contact cybercrime authorities or internal security teams.
-- Provide support to victims (psychological, legal, and digital security).
+## 5. Que faire en cas de sextorsion
+- Coupez immédiatement toute communication.
+- Ne payez **jamais** — l’extorsion continue généralement après un premier paiement.
+- Signalez le compte sur la plateforme concernée.
+- Conservez les preuves (captures d’écran, noms d’utilisateur, URLs).
+- Contactez les autorités de cybercriminalité ou les équipes de sécurité internes.
+- Offrez un soutien aux victimes (psychologique, juridique et sécurité numérique).
 
-## 6. Summary
-Sextortion is an extortion scheme using intimate content to coerce victims.  
-Awareness, safe online behavior, and swift reporting are essential to reduce risk and protect individuals from harm.
+## 6. Résumé
+La sextorsion est une forme d’extorsion utilisant du contenu intime pour contraindre les victimes.  
+La sensibilisation, des comportements prudents en ligne et un signalement rapide sont essentiels pour réduire les risques et protéger les individus.
