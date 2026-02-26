@@ -85,22 +85,18 @@ layout: nil
     
     <div class="sidebar">
 
-      {% assign detect_page = site.pages 
-        | where: "lang", current_lang 
-        | where_exp: "p", "p.url ends_with 'detect.html'" 
-      %}
-      {% assign detect = detect_page.first %}
-      
-      <a href="/phish4all_documentation/{{ current_lang }}/detect.html"
-         {% if page.url == detect.url %}class="active"{% endif %}>
-        {{ detect.title }}
-      </a>
-
+      {% if page.url contains '/en/' %}
+        <a href="/phish4all_documentation/{{ current_lang }}/detect.html"{% if page.url == detect.url %}class="active"{% endif %}>Detect</a>
+        <a href="/phish4all_documentation/{{ current_lang }}/protect.html"{% if page.url == detect.url %}class="active"{% endif %}>Protect</a>
+      {% endif %}
+        
+      {% if page.url contains '/fr/' %}
+        <a href="/phish4all_documentation/{{ current_lang }}/detect.html"{% if page.url == detect.url %}class="active"{% endif %}>Détecter</a>
+        <a href="/phish4all_documentation/{{ current_lang }}/protect.html"{% if page.url == detect.url %}class="active"{% endif %}>Se protéger</a>
+      {% endif %}
 
       
       <a href="/phish4all_documentation/{{ current_lang }}/protect.html" {% if page.url == p.url %}class="active"{% endif %}>pro</a>
-    
-    
       <div>
         {% if page.url contains '/en/' %}<p>Types of Fraud</p>{% endif %}
         {% if page.url contains '/fr/' %}<p>Types de Fraude</p>{% endif %}
