@@ -27,56 +27,126 @@ layout: nil
       height: 100%;
       overflow: auto;
     }
-    
+
     .sidebar a {
       display: block;
       padding: 16px;
       text-decoration: none;
       color: #f5f6fa;
     }
-     
+
     .sidebar a.active {
       border-left: 5px solid #e8491d;
       color: white;
     }
-    
+
     .sidebar a:hover:not(.active) {
       background-color: #201f23;
     }
-    
-    .sidebar div {
+
+    .sidebar .nav-section {
       border-top: 1px solid #44434d;
     }
-    
-    .sidebar div p {
+
+    .sidebar .nav-section p {
       padding-left: 17px;
       font-weight: bold;
     }
-    
-    .sidebar div a{
+
+    .sidebar .nav-section a {
       padding-left: 40px;
     }
-    
+
     div.content {
       margin-left: 200px;
       padding: 1px 16px;
       height: 1000px;
     }
-    
+
+    .nav-toggle {
+      display: none;
+    }
+
     @media screen and (max-width: 700px) {
       .sidebar {
         width: 100%;
         height: auto;
         position: relative;
+        border-right: none;
+        border-bottom: 1px solid #44434d;
       }
-      .sidebar a {float: left;}
-      div.content {margin-left: 0;}
-    }
-    
-    @media screen and (max-width: 400px) {
+
+      .nav-toggle {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        background: #201f23;
+        color: #f5f6fa;
+        border: none;
+        border-bottom: 1px solid #44434d;
+        padding: 14px 16px;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        cursor: pointer;
+        box-sizing: border-box;
+      }
+
+      .nav-toggle .hamburger {
+        font-size: 20px;
+        line-height: 1;
+      }
+
+      .nav-toggle .nav-label {
+        flex: 1;
+        text-align: left;
+      }
+
+      .nav-toggle .chevron {
+        font-size: 12px;
+        transition: transform 0.2s ease;
+      }
+
+      .nav-toggle.open .chevron {
+        transform: rotate(180deg);
+      }
+
+      .sidebar-links {
+        display: none;
+      }
+
+      .sidebar-links.open {
+        display: block;
+      }
+
       .sidebar a {
-        text-align: center;
-        float: none;
+        border-bottom: 1px solid #3a3940;
+      }
+
+      .sidebar a.active {
+        border-left: 5px solid #e8491d;
+        background-color: #201f23;
+      }
+
+      .sidebar .nav-section {
+        border-top: 2px solid #44434d;
+      }
+
+      .sidebar .nav-section p {
+        padding: 10px 17px 6px;
+        margin: 0;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #aaa;
+      }
+
+      .sidebar .nav-section a {
+        padding-left: 28px;
+      }
+
+      div.content {
+        margin-left: 0;
       }
     }
     </style>
@@ -84,25 +154,32 @@ layout: nil
   <body>
     
     <div class="sidebar">
+      <button class="nav-toggle" id="navToggle" onclick="toggleNav()" aria-expanded="false" aria-controls="sidebarLinks">
+        <span class="hamburger">&#9776;</span>
+        <span class="nav-label">Menu</span>
+        <span class="chevron">&#9660;</span>
+      </button>
 
-      {% if page.url contains '/en/' %}
-        <a {% if page.url contains 'protect.html' %}class="active"{% endif %} href="/phish4all_documentation/{{ current_lang }}/protect.html"{% if page.url == detect.url %}class="active"{% endif %}>Protect</a>
-        <a {% if page.url contains 'detect.html' %}class="active"{% endif %} href="/phish4all_documentation/{{ current_lang }}/detect.html"{% if page.url == detect.url %}class="active"{% endif %}>Detect</a>
-      {% endif %}
-        
-      {% if page.url contains '/fr/' %}
-        <a {% if page.url contains 'protect.html' %}class="active"{% endif %} href="/phish4all_documentation/{{ current_lang }}/protect.html"{% if page.url == detect.url %}class="active"{% endif %}>Comment se protéger</a>
-        <a {% if page.url contains 'detect.html' %}class="active"{% endif %} href="/phish4all_documentation/{{ current_lang }}/detect.html"{% if page.url == detect.url %}class="active"{% endif %}>Comment détecter</a>
-      {% endif %}
+      <div class="sidebar-links" id="sidebarLinks">
+        {% if page.url contains '/en/' %}
+          <a {% if page.url contains 'protect.html' %}class="active"{% endif %} href="/phish4all_documentation/{{ current_lang }}/protect.html">Protect</a>
+          <a {% if page.url contains 'detect.html' %}class="active"{% endif %} href="/phish4all_documentation/{{ current_lang }}/detect.html">Detect</a>
+        {% endif %}
 
-      <div>
-        {% if page.url contains '/en/' %}<p>Types of Fraud</p>{% endif %}
-        {% if page.url contains '/fr/' %}<p>Les fraudes</p>{% endif %}
-        {% for p in fraud_pages %}
-          <a href="/phish4all_documentation{{ p.url }}" {% if page.url == p.url %}class="active"{% endif %}>
-            {{ p.title }}
-          </a>
-        {% endfor %}
+        {% if page.url contains '/fr/' %}
+          <a {% if page.url contains 'protect.html' %}class="active"{% endif %} href="/phish4all_documentation/{{ current_lang }}/protect.html">Comment se protéger</a>
+          <a {% if page.url contains 'detect.html' %}class="active"{% endif %} href="/phish4all_documentation/{{ current_lang }}/detect.html">Comment détecter</a>
+        {% endif %}
+
+        <div class="nav-section">
+          {% if page.url contains '/en/' %}<p>Types of Fraud</p>{% endif %}
+          {% if page.url contains '/fr/' %}<p>Les fraudes</p>{% endif %}
+          {% for p in fraud_pages %}
+            <a href="/phish4all_documentation{{ p.url }}" {% if page.url == p.url %}class="active"{% endif %}>
+              {{ p.title }}
+            </a>
+          {% endfor %}
+        </div>
       </div>
     </div>
     
@@ -110,6 +187,15 @@ layout: nil
       {{ content }}
     </div>
   
+    <script>
+      function toggleNav() {
+        var links = document.getElementById('sidebarLinks');
+        var btn = document.getElementById('navToggle');
+        var isOpen = links.classList.toggle('open');
+        btn.classList.toggle('open', isOpen);
+        btn.setAttribute('aria-expanded', isOpen);
+      }
+    </script>
   </body>
 </html>
 
